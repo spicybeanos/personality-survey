@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/personality-survey/static/css/main.cd4400e0.css",
-    "main.js": "/personality-survey/static/js/main.0830fe8b.js",
+    "main.css": "/personality-survey/static/css/main.fc7868c3.css",
+    "main.js": "/personality-survey/static/js/main.7b15be29.js",
     "index.html": "/personality-survey/index.html",
-    "main.cd4400e0.css.map": "/personality-survey/static/css/main.cd4400e0.css.map",
-    "main.0830fe8b.js.map": "/personality-survey/static/js/main.0830fe8b.js.map"
+    "main.fc7868c3.css.map": "/personality-survey/static/css/main.fc7868c3.css.map",
+    "main.7b15be29.js.map": "/personality-survey/static/js/main.7b15be29.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd4400e0.css",
-    "static/js/main.0830fe8b.js"
+    "static/css/main.fc7868c3.css",
+    "static/js/main.7b15be29.js"
   ]
 }
