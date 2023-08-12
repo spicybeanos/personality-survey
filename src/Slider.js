@@ -13,8 +13,10 @@ function Slider(props) {
                 <div className='agree'>Agree</div>
             </div>
             <input type="range"
-                min="-1.0" defaultValue='0'
-                max="1.0" step="0.25"
+                min="-1.0" 
+                defaultValue='0'
+                max="1.0"
+                step="0.25"
                 className="slider"
                 id={"slider_" + props.id}
                 onChange={valChange}

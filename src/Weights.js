@@ -29,7 +29,7 @@ const QuestionVectors =
         },
         {
             text: "Seeing other people cry can easily make you feel like you want to cry too. ",
-            vect: new Vector5(0, 0, 1, 0, 0),
+            vect: new Vector5(0, 0, -1, 0, 0),
             id: 3
         },
         {
