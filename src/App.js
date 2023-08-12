@@ -10,7 +10,7 @@ function App() {
         Personality Survey (2023)
       </h2>
       <br />
-      <ReanderQuestions/>
+      <ReanderQuestions />
     </div>
   );
 }
@@ -20,7 +20,7 @@ const listQs = QuestionVectors.map(qs =>
 function ReanderQuestions() {
   return (
     <div>
-      {listQs}
+        {listQs}
     </div>
   );
 }

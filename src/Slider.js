@@ -16,9 +16,13 @@ function Slider(props) {
                 min="-1.0" defaultValue='0'
                 max="1.0" step="0.25"
                 className="slider"
-                id={props.id}
-                onChange={valChange} 
+                id={"slider_" + props.id}
+                onChange={valChange}
+                list={"marks_" + props.id}
             />
+            <datalist id={"marks_" + props.id}>
+                <option value="0"></option>
+            </datalist>
 
         </div>
     );
