@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Question from './Question';
+import Vector5 from './Weights.js'
+import QuestionVectors from './Weights.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='page-container'>
+      <h2>
+        Personality Survey (2023)
+      </h2>
+      <br />
+      <ReanderQuestions/>
     </div>
   );
 }
+const listQs = QuestionVectors.map(qs =>
+  <Question content={qs.text} id={qs.id} />
+);
+function ReanderQuestions() {
+  return (
+    <div>
+      {listQs}
+    </div>
+  );
+}
+
+
 
 export default App;

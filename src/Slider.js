@@ -1,0 +1,27 @@
+import './Slider.css'
+import { useState } from 'react';
+
+function Slider(props) {
+    const [val, setValue] = useState(0);
+    const valChange = (event) => {
+        setValue(event.target.value);
+    };
+    return (
+        <div className="slidecontainer">
+            <div className='_text_container'>
+                <div className='disagree'>Disagree</div>
+                <div className='agree'>Agree</div>
+            </div>
+            <input type="range"
+                min="-1.0" defaultValue='0'
+                max="1.0" step="0.25"
+                className="slider"
+                id={props.id}
+                onChange={valChange} 
+            />
+
+        </div>
+    );
+}
+
+export default Slider;
