@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/personality-survey/static/css/main.cd4400e0.css",
+    "main.js": "/personality-survey/static/js/main.0830fe8b.js",
+    "index.html": "/personality-survey/index.html",
+    "main.cd4400e0.css.map": "/personality-survey/static/css/main.cd4400e0.css.map",
+    "main.0830fe8b.js.map": "/personality-survey/static/js/main.0830fe8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd4400e0.css",
+    "static/js/main.0830fe8b.js"
+  ]
+}
